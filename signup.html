@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
@@ -58,6 +58,16 @@
             </li>
             <li class="nav-item">
               <a class="nav-link para customNav--item" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link para customNav--item" href="./checkout.html"
+                >Checkout</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link para customNav--item" href="./404.html"
+                >Journal</a
+              >
             </li>
           </ul>
         </div>
@@ -210,16 +220,18 @@
             <li class="breadcrumb-item active" aria-current="page">Sign up</li>
           </ol>
         </nav>
-        <p class="para my-5 w-50">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the.
-        </p>
+        <div class="col-lg-6 col-sm-12">
+          <p class="para my-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the.
+          </p>
+        </div>
 
         <h2 class="headingTwo mt-5">Your Personal Details</h2>
         <div class="loginInfo customCat">
-          <div class="d-flex justify-content-between w-75 gap-2">
-            <div class="mb-3 w-50 customCat">
+          <div class="d-flex justify-content-between col-lg-9 gap-2">
+            <div class="mb-lg-3 w-50 customCat">
               <label
                 for="exampleFormControlInput1"
                 class="form-label headingSix"
@@ -246,7 +258,7 @@
               />
             </div>
           </div>
-          <div class="d-flex justify-content-between w-75 gap-2">
+          <div class="d-flex justify-content-between col-lg-9 gap-2">
             <div class="mb-3 w-50 customCat">
               <label
                 for="exampleFormControlInput1"
@@ -276,9 +288,9 @@
           </div>
         </div>
 
-        <h2 class="headingTwo mt-5">New Customer</h2>
+        <h2 class="headingTwo mt-lg-5 mt-sm-2">New Customer</h2>
         <div class="loginInfo customCat">
-          <div class="d-flex justify-content-between w-75 gap-2">
+          <div class="d-flex justify-content-between col-lg-9 gap-2">
             <div class="mb-3 w-50 customCat">
               <label
                 for="exampleFormControlInput1"
@@ -306,7 +318,7 @@
               />
             </div>
           </div>
-          <div class="d-flex justify-content-between w-75 gap-2">
+          <div class="d-flex justify-content-between col-lg-9 gap-2">
             <div class="mb-3 w-50 customCat">
               <label
                 for="exampleFormControlInput1"
@@ -334,7 +346,7 @@
               />
             </div>
           </div>
-          <div class="d-flex justify-content-between w-75 gap-5">
+          <div class="d-flex justify-content-between col-lg-9 gap-5">
             <div class="mb-3 w-50 customCat">
               <label
                 for="exampleFormControlInput1"
@@ -401,8 +413,8 @@
             </div>
           </div>
         </div>
-        <h2 class="headingTwo mt-5">Your Password</h2>
-        <div class="d-flex justify-content-between w-75 gap-2">
+        <h2 class="headingTwo mt-lg-5 mt-sm-1">Your Password</h2>
+        <div class="d-flex justify-content-between col-lg-9 gap-2">
           <div class="mb-3 w-50 customCat">
             <label for="exampleFormControlInput1" class="form-label headingSix"
               >Password</label
@@ -426,7 +438,7 @@
             />
           </div>
         </div>
-        <div class="d-flex gap-3 mt-5">
+        <div class="d-flex gap-3 mt-lg-5 mt-sm-2">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -502,7 +514,9 @@
     <section id="footerPart">
       <div class="container">
         <div class="row py-5">
-          <div class="col-lg-2 d-flex flex-column align-items-start">
+          <div
+            class="col-lg-2 col-sm-4 col-md-4 mb-5 d-flex flex-column align-items-start"
+          >
             <h2 class="headingSix">Menu</h2>
             <li class="para">Home</li>
             <li class="para">Shop</li>
@@ -510,7 +524,9 @@
             <li class="para">Contact</li>
             <li class="para">Journal</li>
           </div>
-          <div class="col-lg-2 d-flex flex-column align-items-start">
+          <div
+            class="col-lg-2 col-sm-4 col-md-4 d-flex flex-column align-items-start"
+          >
             <h2 class="headingSix">Menu</h2>
 
             <li class="para">Category 1</li>
@@ -519,7 +535,9 @@
             <li class="para">Category 4</li>
             <li class="para">Category 5</li>
           </div>
-          <div class="col-lg-2 d-flex flex-column align-items-start">
+          <div
+            class="col-lg-2 col-sm-4 col-md-4 d-flex flex-column align-items-start"
+          >
             <h2 class="headingSix text-center">Menu</h2>
 
             <li class="para">Privacy Policy</li>
@@ -528,7 +546,8 @@
             <li class="para">Shipping</li>
             <li class="para">Secure Payments</li>
           </div>
-          <div class="col-lg-3 d-flex flex-column">
+
+          <div class="col-lg-3 col-sm-6 col-md-6 d-flex flex-column">
             <p class="headingSix">
               (052) 611-5711
               <br />
@@ -538,13 +557,15 @@
               575 Crescent Ave. Quakertown, PA 18951
             </p>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 col-md-6 text-sm-end">
             <img src="./Images/Logo.png" alt="" />
           </div>
         </div>
         <div class="footer_bottom">
           <div class="row pb-4 d-flex justify-content-between">
-            <div class="col-lg-6 d-flex flex-row column-gap-4">
+            <div
+              class="col-lg-6 col-sm-4 col-md-4 d-flex flex-row column-gap-4"
+            >
               <span class="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -602,7 +623,7 @@
                 </svg>
               </span>
             </div>
-            <div class="col-lg-3 text-end">
+            <div class="col-lg-6 col-sm-8 text-end">
               <p class="para footerPara">
                 <span class="text-dark fw-bold">2020</span> Orebi Minimal
                 eCommerce Figma Template by Adveits
