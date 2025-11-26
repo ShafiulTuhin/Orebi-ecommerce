@@ -113,7 +113,6 @@
 .customElectronics {
   left: 0;
   bottom: 50px;
-  row-gap: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -146,8 +145,9 @@
   display: flex;
   flex-direction: column;
   row-gap: 25px;
-  right: 195px;
-  top: 22px;
+  right: 0;
+  top: 0;
+  transform: translate(-30%, 28%);
 }
 /* =====Footer css */
 #footerPart {
@@ -201,7 +201,7 @@
 .aboutPara {
   font-size: 39px;
   color: var(--color_262626);
-  padding: 128px 0;
+  padding: 128px 0 !important;
 }
 /* =====Contact css===== */
 #contactPart {
@@ -229,4 +229,13 @@
 /* =====Cart css===== */
 #cartPart {
   padding: 135px 0;
+}
+/* =====Checkout css===== */
+#checoutPart {
+  padding: 135px 0;
+}
+
+/*=====404 css===== */
+.wrongReq {
+  font-size: 200px;
 }
