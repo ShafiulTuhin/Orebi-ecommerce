@@ -80,6 +80,7 @@ img {
   padding: 16px 0;
   color: #ffffff;
   width: 185px;
+  font-weight: 700;
   transition: all linear 0.4s;
   &:hover {
     background-color: var(--color_ffffff);
