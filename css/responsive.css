@@ -25,6 +25,17 @@
     padding: 5px 22px !important;
     font-size: 12px;
   }
+  /* =====Home css===== */
+  #introPart {
+    height: 500px;
+  }
+  .customIntro {
+    row-gap: 25px;
+  }
+  .spanText {
+    color: var(--color_262626);
+    margin: 0 3px;
+  }
   /* =====Products css===== */
   #products {
     padding: 50px 0;

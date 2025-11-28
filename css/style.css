@@ -91,6 +91,7 @@
 }
 .spanText {
   color: var(--color_262626);
+  margin: 0 15px;
 }
 /* =====Information css */
 #infoPart {
