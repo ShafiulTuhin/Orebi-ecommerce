@@ -1,0 +1,124 @@
+@import url("./common.css");
+/* =====Small Devices===== */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* =====common css */
+  .headingOne {
+    font-size: 35px;
+  }
+  .headingTwo {
+    font-size: 25px;
+  }
+  .headingThree {
+    font-size: 22px;
+  }
+  .largeBtn {
+    padding: 8px 0;
+    width: 100px;
+    font-size: 13px;
+  }
+  .largeBtn--modifier {
+    width: 185px;
+    padding: 15px 0;
+    font-size: 15px;
+  }
+  .smallBtn {
+    padding: 5px 22px !important;
+    font-size: 12px;
+  }
+  /* =====Products css===== */
+  #products {
+    padding: 50px 0;
+  }
+  /* =====Ads css===== */
+  #adsPart {
+    padding: 0px 0 30px;
+    background-color: #ffffff;
+  }
+  .customPhone {
+    left: 120px;
+    bottom: 20px;
+    row-gap: 0px;
+  }
+  .customElectronics {
+    bottom: 40px;
+  }
+  .device-small {
+    margin: 0 auto;
+  }
+  /* =====New arrival css===== */
+  .newArrival {
+    padding: 50px 0;
+  }
+  .customBestItems {
+    width: 100%;
+    row-gap: 10px;
+    left: 40%;
+    top: 15%;
+  }
+  .paraSmall {
+    width: 80%;
+  }
+  /* =====About part css====== */
+  #aboutPart {
+    padding: 50px 0;
+  }
+  .imgAbout {
+    height: 500px;
+  }
+  .customAboutBtn {
+    left: 0;
+    transform: translate(170%, -125%);
+  }
+  /* =====Contact css===== */
+  #contactPart {
+    padding: 50px 0;
+  }
+  .customMap {
+    height: 572px;
+  }
+  .customAddress {
+    top: 64px;
+    left: 20px;
+  }
+  /* =====Login css===== */
+  #loginPart {
+    padding: 50px 0;
+  }
+  .custPlaceholder {
+    font-size: 40px;
+  }
+  /* =====Cart css===== */
+  #cartPart {
+    padding: 50px 0;
+  }
+  /* =====Checkout css===== */
+  #checoutPart {
+    padding: 50px 0;
+  }
+  /*=====404 css===== */
+  .wrongReq {
+    font-size: 100px;
+  }
+  /* =====My account css===== */
+  #myPart {
+    padding: 50px 0;
+  }
+  /* =====Footer css===== */
+  .footerPara {
+    font-size: 8px;
+  }
+}
+/* =====Medium Devices===== */
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+  .customBestItems {
+    row-gap: 10px;
+    left: 40%;
+    top: 0;
+  }
+  .paraSmall {
+    width: 80%;
+  }
+  .footerPara {
+    font-size: 12px;
+  }
+}

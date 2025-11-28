@@ -1,0 +1,241 @@
+@import url("./common.css");
+:root {
+  --color_262626: #262626;
+  --color_767676: #767676;
+  --color_ffffff: #ffffff;
+  --color_6D6D6D: #6d6d6d;
+  --color_D8D8D8: #6d6d6d;
+  --color_70_262626: rgba(38, 38, 38, 0.7);
+  --color_F5F5F3: #f5f5f3;
+  --color_000000: rgba(0, 0, 0, 0.2);
+  --color_BB1515: #bb1515;
+  --color_C11C1C: #c11c1c;
+  --color_C4C4C4: #c4c4c4;
+  --font_dmSans: "DM Sans", sans-serif;
+}
+/* =====Navbar css===== */
+.customNav--item {
+  color: var(--color_767676);
+  margin-right: 25px;
+  transition: all linear 0.4s;
+  cursor: pointer;
+  &:hover {
+    font-weight: 700;
+    color: var(--color_262626);
+  }
+}
+.customBtn {
+  background-color: var(--color_ffffff);
+}
+/* =====Menu css===== */
+#navMenu {
+  background-color: var(--color_F5F5F3);
+}
+.shopCategory {
+  color: var(--color_262626);
+  cursor: pointer;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.customSearch {
+  width: 601px;
+  padding: 16px 0;
+}
+.customSearch::placeholder {
+}
+.searchIcon {
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+/* =====Intro part css===== */
+#introPart {
+  background-image: url(../Images/MICROPHONE.png);
+  height: 597px;
+  border-bottom: 4px solid var(--color_C4C4C4);
+}
+.custom01 {
+  position: relative;
+}
+.custom01::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 30px;
+  background-color: #979797;
+  right: 60px;
+  top: 0;
+}
+.custom01::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 90px;
+  background-color: #ffffff;
+  right: 60px;
+  top: 0;
+}
+.customIntroPara {
+  color: var(--color_6D6D6D);
+}
+.customIntro {
+  row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.spanText {
+  color: var(--color_262626);
+}
+/* =====Information css */
+#infoPart {
+  background-color: #ffffff;
+  padding: 21px 0;
+}
+/* =====Ads css===== */
+#adsPart {
+  padding: 174px 0 130px;
+  background-color: #ffffff;
+}
+.customPhone {
+  left: 20px;
+  bottom: 50px;
+  row-gap: 25px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 64px; */
+}
+.customElectronics {
+  left: 0;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+/* =====New arrival css===== */
+.newArrival {
+  padding: 128px 0;
+}
+.customNewbtn {
+  left: 30px;
+  top: 20px;
+}
+.customArrow {
+  transform: translateY(400%);
+  cursor: pointer;
+}
+.customArrowright {
+  transform: translate(660%, 400%);
+  cursor: pointer;
+}
+
+.customImg2 {
+  bottom: 95px;
+  right: 13px;
+  width: 100%;
+  height: 35%;
+}
+/* =====Best item css===== */
+.customBestItems {
+  width: 513px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  right: 0;
+  top: 0;
+  transform: translate(-30%, 28%);
+}
+/* =====Footer css */
+#footerPart {
+  background-color: var(--color_F5F5F3);
+}
+.footerPara {
+  font-size: 10px;
+}
+/* =====Products css===== */
+#products {
+  padding: 130px 0;
+}
+.imgShop {
+  height: 382px !important;
+  width: 100%;
+}
+.customCat {
+  border-bottom: 1px solid #f8f3f3;
+  padding: 20px 0;
+}
+.category-margin {
+  margin-bottom: 20px !important;
+}
+.color1 {
+  width: 11px;
+  height: 11px;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.pagination {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d5d3d3;
+  transition: all linear 0.4s;
+  &:hover {
+    background-color: var(--color_262626);
+    color: var(--color_ffffff);
+  }
+}
+/* =====About part css====== */
+#aboutPart {
+  padding: 130px 0;
+}
+.imgAbout {
+  height: 776px;
+}
+.customAboutBtn {
+  left: 0;
+  transform: translate(133%, -125%);
+}
+.aboutPara {
+  font-size: 39px;
+  color: var(--color_262626);
+  padding: 128px 0 !important;
+}
+/* =====Contact css===== */
+#contactPart {
+  padding: 135px 0;
+}
+.customMap {
+  height: 572px;
+  width: 100%;
+}
+.customAddress {
+  top: 64px;
+  left: 76px;
+}
+/* =====Login css===== */
+#loginPart {
+  padding: 135px 0;
+}
+.custPlaceholder {
+  font-size: 40px;
+}
+/* =====My account css===== */
+#myPart {
+  padding: 135px 0;
+}
+/* =====Cart css===== */
+#cartPart {
+  padding: 135px 0;
+}
+/* =====Checkout css===== */
+#checoutPart {
+  padding: 135px 0;
+}
+
+/*=====404 css===== */
+.wrongReq {
+  font-size: 200px;
+}
