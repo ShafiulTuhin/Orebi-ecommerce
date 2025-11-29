@@ -119,6 +119,9 @@
     font-size: 8px;
     margin-top: 8px;
   }
+  .footerAddress {
+    font-size: 11px;
+  }
 }
 /* =====Medium Devices===== */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
@@ -132,5 +135,9 @@
   }
   .footerPara {
     font-size: 10px;
+    margin-top: 9px;
+  }
+  .footerAddress {
+    font-size: 13px;
   }
 }
