@@ -117,10 +117,11 @@
   /* =====Footer css===== */
   .footerPara {
     font-size: 8px;
+    margin-top: 8px;
   }
 }
 /* =====Medium Devices===== */
-@media only screen and (min-width: 575px) and (max-width: 768px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
   .customBestItems {
     row-gap: 10px;
     left: 40%;
@@ -130,6 +131,6 @@
     width: 80%;
   }
   .footerPara {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
