@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
   </head>
   <body>
+    <!-- Navbar start -->
     <nav class="navbar navbar-expand-lg bg-body-white">
       <div class="container">
         <!-- Navbar logo -->
@@ -33,7 +34,7 @@
               <a
                 class="nav-link para customNav--item"
                 aria-current="page"
-                href="./index.html"
+                href=""
                 >Home</a
               >
             </li>
@@ -58,7 +59,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link para customNav--item" href="#">Sign Up</a>
+              <a class="nav-link para customNav--item" href="./signup.html"
+                >Sign Up</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link para customNav--item" href="./checkout.html"
@@ -71,14 +74,15 @@
               >
             </li>
           </ul>
+          <button type="button" class="largeBtn largeDevice">Contact Us</button>
         </div>
-        <!-- navbar button -->
-        <button type="button" class="btn btn-outline-secondary para customBtn">
+        <button type="button" class="largeBtn largeBtn-navbar">
           Contact Us
         </button>
       </div>
     </nav>
-    <!-- Menu -->
+    <!-- Navbar end -->
+    <!-- Menu section start-->
     <section>
       <nav class="navbar navbar-expand-lg" id="navMenu">
         <div class="container">
@@ -197,7 +201,8 @@
         </div>
       </nav>
     </section>
-    <!-- Signup section -->
+    <!-- Menu section end-->
+    <!-- Signup section start -->
     <section id="loginPart">
       <div class="container">
         <h2 class="headingOne">Sign up</h2>
@@ -420,7 +425,7 @@
               >Repeat Password</label
             >
             <input
-              type="number"
+              type="password"
               class="form-control para px-0 border-0 custPlaceholder"
               id="exampleFormControlInput1"
               placeholder="Repeat Password"
@@ -496,10 +501,11 @@
             <p class="para">No</p>
           </div>
         </div>
-        <button class="largeBtn para mt-4">Log in</button>
+        <button class="largeBtn para mt-4">Sign up</button>
       </div>
     </section>
-    <!-- Footer Section -->
+    <!-- Signup section end -->
+    <!-- Footer Section start-->
     <section id="footerPart">
       <div class="container">
         <div class="row pt-5">
@@ -641,6 +647,7 @@
         </div>
       </div>
     </section>
+    <!-- Footer Section end-->
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

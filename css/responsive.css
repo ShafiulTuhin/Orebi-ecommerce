@@ -25,6 +25,24 @@
     padding: 5px 22px !important;
     font-size: 12px;
   }
+  /* =====Navbar css===== */
+  .largeBtn-navbar {
+    display: none;
+  }
+  .largeDevice {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+  }
+  .nav-item {
+    background-color: #222222 !important;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .nav-item a {
+    color: var(--color_F5F5F3);
+  }
   /* =====Home css===== */
   #introPart {
     height: 500px;
@@ -125,6 +143,24 @@
 }
 /* =====Medium Devices===== */
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+  /* =====Navbar css===== */
+  .largeBtn-navbar {
+    display: none;
+  }
+  .largeDevice {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+  }
+  .nav-item {
+    background-color: #222222 !important;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .nav-item a {
+    color: var(--color_F5F5F3);
+  }
   .customBestItems {
     row-gap: 10px;
     left: 40%;
@@ -139,5 +175,26 @@
   }
   .footerAddress {
     font-size: 13px;
+  }
+}
+/* =====Medium Devices===== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* =====Navbar css===== */
+  .largeBtn-navbar {
+    display: none;
+  }
+  .largeDevice {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+  }
+  .nav-item {
+    background-color: #222222 !important;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .nav-item a {
+    color: var(--color_F5F5F3);
   }
 }
